@@ -1,0 +1,56 @@
+.main {
+    width: 333px;
+    height: 600px;
+    background-color: aqua;
+}
+
+.shapes {
+    background-image: url(./images/purple.png);
+    background-size: cover;
+}
+
+.navbar {
+    background-color: blueviolet;
+    width: auto;
+    height: 45px;
+}
+
+#menu {
+    float: left;
+    position: relative;
+    left: 15px;
+    bottom: -9px;
+}
+
+span {
+    float: right;
+}
+
+.contacts {
+    position: relative;
+    top: 12px;
+    right: -45px;
+}
+
+.material-symbols-outlined, #search #more-vert {
+    position: relative;
+    top: -7px;
+    right: 8px;
+}
+
+.person {
+    float: left;
+    position: relative;
+    top: 21px;
+    right: -20px;
+}
+
+input {
+    margin-left: 53px;
+}
+
+#fname {
+    position: relative;
+    left: -15px;
+    margin-top: 22px;
+}
