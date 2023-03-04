@@ -1,8 +1,11 @@
 .main {
     width: 333px;
     height: 600px;
-    background-color: aqua;
+    background-color: none;
+    font-family: helvetica;
 }
+
+
 
 .shapes {
     background-image: url(./images/purple.png);
@@ -10,17 +13,28 @@
 }
 
 .navbar {
-    background-color: blueviolet;
+    background-color: rgb(118, 29, 226);
     width: auto;
     height: 45px;
+    color: white;
 }
 
+
 #menu {
-    float: left;
     position: relative;
-    left: 15px;
-    bottom: -9px;
+    right: 296px;
+    top: -9px;
 }
+
+#double {
+    position: relative;
+    left: 23px;
+}
+
+form {
+    color: grey;
+}
+
 
 span {
     float: right;
@@ -29,7 +43,7 @@ span {
 .contacts {
     position: relative;
     top: 12px;
-    right: -45px;
+    right: -67px;
 }
 
 .material-symbols-outlined, #search #more-vert {
@@ -41,8 +55,8 @@ span {
 .person {
     float: left;
     position: relative;
-    top: 21px;
-    right: -20px;
+    top: 31px;
+    right: -22px;
 }
 
 input {
@@ -53,4 +67,70 @@ input {
     position: relative;
     left: -15px;
     margin-top: 22px;
+    width: 233px;
+    padding: 12px;
+}
+
+#phone {
+    position: relative;
+    left: -15px;
+    margin-top: 22px;
+    width: 121px;
+    padding: 12px;
+}
+
+#label {
+    position: relative;
+    left: -15px;
+    margin-top: 22px;
+    width: 87px;
+    padding: 12px;
+}
+
+#city {
+    position: relative;
+    left: 0px;
+    margin-top: 22px;
+    width: 233px;
+    padding: 12px;
+    top: -5px;
+}
+
+#state {
+    position: relative;
+    left: 53px;
+    margin-top: 22px;
+    padding: 12px;
+    width: 116px;
+}
+
+#zip {
+    position: relative;
+    left: 133px;
+    margin-top: 22px;
+    width: 99px;
+    padding: 12px;
+    top: -65px;
+}
+
+#email {
+    position: relative;
+    left: -15px;
+    margin-top: 22px;
+    width: 233px;
+    padding: 12px;
+}
+
+.email {
+    position: relative;
+    top: -60px;
+    right: 10px;
+}
+
+#date {
+    position: relative;
+    left: -15px;
+    margin-top: 22px;
+    width: 233px;
+    padding: 12px;
 }
